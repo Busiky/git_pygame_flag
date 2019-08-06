@@ -17,6 +17,9 @@ def draw():
     pygame.draw.rect(screen, pygame.Color('red'), (50, 220, 430, 100))
     pygame.draw.rect(screen, pygame.Color('blue'), (50, 120, 430, 100))
 
+
+    pygame.draw.rect(screen, pygame.Color('black'), (420, 440, 40, 5), 2)
+
 draw()
 
 while pygame.event.wait().type != pygame.QUIT:
