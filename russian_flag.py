@@ -20,6 +20,9 @@ def draw():
     pygame.draw.ellipse(screen, pygame.Color('yellow'), (400, 400, 80, 80))
 
 
+
+    pygame.draw.rect(screen, pygame.Color('black'), (420, 440, 40, 5), 2)
+
 draw()
 
 while pygame.event.wait().type != pygame.QUIT:
